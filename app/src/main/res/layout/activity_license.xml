@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activate_license"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/licenseKeyEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="@string/enter_license_key"
+        android:inputType="text"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/edit_text_background" />
+
+    <Button
+        android:id="@+id/activateButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/activate_license"
+        android:textSize="16sp" />
+
+</LinearLayout>
